@@ -1,0 +1,206 @@
+h1 {
+	font-family: futura;
+	font-size: 100px;
+	font-style: italic;
+	margin-top: 150px;
+	margin-left: 50px;
+	color: white;
+}
+
+.sun-wrapper {
+	height: 400px;
+	width: 500px;
+	overflow: hidden;
+	transition: background 4s ease-in-out;
+	background-color: lightblue;
+	margin: auto;
+}
+
+.sun-wrapper:hover {
+	background-color: transparent blue;
+}
+
+.sun-wrapper:hover .sun {
+	background-color: white;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.sun-wrapper:hover .sun1 {
+	background-color: white;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.sun-wrapper:hover .sun2 {
+	background-color: white;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.sun-wrapper:hover .sun3 {
+	background-color: white;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.sun-wrapper:hover .sun4 {
+	background-color: white;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.sun-wrapper:hover .sun5 {
+	background-color: white;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.sun-wrapper:hover .sun6 {
+	background-color: white;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.sun-wrapper:hover .sun7 {
+	background-color: white;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.sun {
+	width: 500px;
+	height: 10px;
+	background-color: pink;
+	border-radius: 1px;
+	transition-property: background-color, transform; 
+	transition-duration: 5s, 5s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+	margin-top: -350px;
+}
+
+.sun1 {
+	width: 500px;
+	height: 10px;
+	background-color: pink;
+	border-radius: 1px;
+	transition-property: background-color, transform; 
+	transition-duration: 5s, 5s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+}
+
+.sun2 {
+	width: 500px;
+	height: 10px;
+	background-color: pink;
+	border-radius: 1px;
+	transition-property: background-color, transform; 
+	transition-duration: 4s, 4s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+}
+
+.sun3 {
+	width: 500px;
+	height: 10px;
+	background-color: pink;
+	border-radius: 1px;
+	transition-property: background-color, transform; 
+	transition-duration: 4s, 4s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+}
+
+.sun4 {
+	width: 500px;
+	height: 10px;
+	background-color: pink;
+	border-radius: 1px;
+	transition-property: background-color, transform; 
+	transition-duration: 3s, 3s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+}
+
+.sun5 {
+	width: 500px;
+	height: 10px;
+	background-color: pink;
+	border-radius: 1px;
+	transition-property: background-color, transform; 
+	transition-duration: 3s, 3s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+}
+
+.sun6 {
+	width: 500px;
+	height: 10px;
+	background-color: pink;
+	border-radius: 1px;
+	transition-property: background-color, transform; 
+	transition-duration: 3s, 3s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+}
+
+.sun7 {
+	width: 500px;
+	height: 10px;
+	background-color: pink;
+	border-radius: 1px;
+	transition-property: background-color, transform; 
+	transition-duration: 3s, 3s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+}
+
+.sun-wrapper:hover .sun8 {
+	background-color: white;
+	transform: translateY(600px);
+	z-index: 5;
+}
+
+.sun8 {
+	width: 500px;
+	height: 500px;
+	background-color: white;
+	border-radius: 1px;
+	transition-property: background-color, transform; 
+	transition-duration: 5s, 5s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+	margin: auto;
+}
+
+
+
+@keyframes riseandset {
+	from {
+		transform: translateY(400px);
+	}
+
+	to {
+		transform: translateY(-400px);
+		background-color: blue;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
